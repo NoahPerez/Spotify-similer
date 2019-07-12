@@ -1,0 +1,309 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body{font-family: 'Poppins', sans-serif;
+	 background: #203d60}
+	 
+p{font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #999;
+}
+a,
+a:hover,
+a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+.navbar{
+	padding: 15px 10px;
+	background-color:#203d60;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 40px;
+	text-align: center;
+	
+		
+}
+#navbar{
+	text-align: center;
+}
+
+.navbar-btn{
+	box-shadow: none;
+	outline: none!important;
+	border: none;
+	
+	
+}
+
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+	align-items: stretch;
+	
+}
+
+.spotify-content .content {
+	  margin-left: 250px;
+	  padding-left:2rem;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: black;
+    color: #fff;
+	transition: all 0.3s;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	z-index: 100;
+	
+	
+	
+}
+#sidebar.active{
+	margin-left: -250px;
+}
+
+#sidebar .sidebar-header{
+	padding: 20px;
+	background: black;
+}
+#sidebar ul.components{
+	padding: 20px 0px;
+	border-bottom: 1px solid black;
+}
+
+#sidebar ul p{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#sidebar ul li a{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+#sidebar ul li a:hover {
+    color: #ffff;
+    background: #41d76d;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: rgb(34, 169, 34);
+    background: black;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: black;
+}
+
+ul.CTAs {
+	padding: 20px;
+	
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 30px;
+	margin-bottom: 30px;
+	padding:5px;
+	margin: 15px;
+	
+	
+
+}
+a.download{
+	background: #fff;
+	color: grey;
+}
+
+a.article,
+a.article:hover {
+    background: black !important;
+	color: #fff !important;
+	border:1px solid white;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media(maz-width:800px){
+	#sidebar{margin-left: -250px;}
+	#sidebar.active{
+		margin-left: 0px;
+	}
+	#sidebarCollapse span{
+		display: none;
+	}
+}
+
+.icon-sidebar,a{
+	list-style: none;
+  padding-right: 10px;
+  margin-right: 5px;
+ 
+}
+
+h1{
+   color:white;
+   
+}
+
+h4{
+	color:white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.music-wrapper img {
+		width: 100%;
+		
+}
+
+#color{
+  background-color: #203d60;
+}
+
+footer{
+	background-color: grey;
+}
+span{
+	
+	text-align: center;
+	
+}
+a {
+	outline: none;
+}
+
+.navbar-container {
+	text-align: center;
+	background-color: #203d60;
+	;
+	padding: 10px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 100%;
+	background-color:#41d76d ;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: #41d76d;
+	width: 100%;
+}
+
+.navbar-container ul li:hover a {
+	color:#41d76d;
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: #41d76d;
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: #41d76d;
+}
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	z-index: 200;
+
+ }
+
+ .audio{
+	 width: 25px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
